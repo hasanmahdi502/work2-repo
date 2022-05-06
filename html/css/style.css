@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;1,400&family=Poppins:wght@700&family=Quintessential&display=swap');
+
+* {
+          padding: 0px;
+          margin: 0px;
+          border: 0px;
+}
+
+body {
+          margin: 20px;
+          padding: 20px;
+          font-family: 'Poppins', sans-serif;
+}
+
+.h {
+          font-size: 60px;
+          gap: 5px;
+}
+
+p {
+          width: 450px;
+}
+
+.container {
+          display: flex;
+          column-count: 2;
+          column-gap: 60px;
+
+}
+
+.plear {
+          width: 100%;
+          padding: 10%;
+}
+
+.plear img {
+          width: 440px;
+          height: 414px;
+          left: 835px;
+          top: 211px;
+
+}
+
+.top-plears {
+          width: 100%;
+          padding: 10%;
+}
+
+button {
+          background-color: rgba(235, 6, 147, 0.959);
+          width: 25%;
+          height: 20%;
+          border-radius: 20px;
+          cursor: pointer;
+          font-size: 18px;
+          font-weight: bold;
+          padding: 10px;
+          color: white;
+
+}
+
+.h2 {
+          font: size 400px;
+          text-align: center;
+}
+
+.points {
+          display: flex;
+          width: 10px;
+          gap: 3px;
+          visibility: visible;
+
+}
+
+.point {
+          text-indent: 10px;
+          position: relative;
+          bottom: 20px;
+
+}
+
+.blogs {
+          visibility: visible;
+}
+
+.blog {
+          column-gap: 10px;
+
+}
+
+.star {
+          row-gap: 5%;
+          opacity: .6;
+
+}
+
+.thumbnail {
+          border: 10px;
+          box-shadow: 5px 5px 5px 20px rgba(216, 214, 214, 0.562);
+          width: 320px;
+          border-radius: 5px;
+          padding: 25px;
+
+
+}
+
+.gellary {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          padding: 0 200px;
+          column-gap: 30px;
+          row-gap: 30px;
+}
+
+.see,
+a {
+          text-decoration: none;
+          color: rgb(247, 11, 148);
+
+
+}
+
+.see-more {
+          text-align: end;
+          padding-top: 80px;
+          padding-right: 200px;
+
+}
+
+footer {
+          position: absolute;
+          right: 0px;
+          left: 0px;
+          background-color: rgb(8, 22, 51);
+          height: auto;
+          width: 100%;
+          font-family: "open sans";
+          padding-top: 40px;
+          color: #fff;
+
+}
+
+.footer-content {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          text-align: center;
+
+}
+
+.footer-content h3 {
+          font-size: 1.8rem;
+          font-weight: 400;
+          text-transform: capitalize;
+          line-height: 3rem;
+}
+
+.footer-content p {
+          max-width: 500px;
+          margin: 10px auto;
+          line-height: 28px;
+          font-size: 14px;
+}
+
+.social {
+
+          list-style: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 1rem 0 3rem 0;
+          column-gap: 25px;
+
+
+
+
+}
+
+.socials li {
+          margin: 0 10px;
+}
+
+.socials a {
+          text-decoration: none;
+          color: #fff;
+}
+
+.socials i {
+          font-size: 1.1rem;
+          transition: color .4 ease;
+          color: #fff;
+
+}
+
+.socials a:hover i {
+          color: aqua; 
+}
+
+@media only screen and (max-width:700px) {
+
+
+          .container {
+                    display: inline;
+                    width: 100%;
+                    grid-template-columns: repeat(1, 1fr);
+                    padding: 0px;
+                    margin: 0px;
+
+          }
+
+          .gellary {
+                    display: inline;
+                    align-items: center;
+                    justify-content: center;
+
+          }
+
+          .footer {
+                    background-color: rgb(8, 22, 51);
+                    width: 174vw;
+          }
+
+}
+
+@media only screen and (min-width:700px) and (max-width:992px) {
+
+          .container {
+                    width: 100%;
+          }
+
+          .gellary {
+                    grid-template-columns: repeat(2, 1fr);
+                    width: 100%;
+          }
+
+
+}
